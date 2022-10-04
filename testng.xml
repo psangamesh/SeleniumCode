@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.InternetBanking.testcases.Extent_Report"></listener>
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+   <!--   <class name="drop_down.Demo_1"/>-->
+  <!--   <class name="com.InternetBanking.testcases.TC_EditCustomer_003"/>-->
+     <!-- <class name="com.InternetBanking.testcases.TC_AddCustomer_002"/>-->
+    <!--  <class name="screenshot.CaptureScreeshot"/>-->
+    <!--  <class name="uploadFile.Upload_File"/>-->
+    <!--    <class name="drop_down.Demo_On_No_Select_Tag"/>-->
+      <class name="com.InternetBanking.testcases.TC_LoginTest_001"/>
+      <!--  <class name="com.InternetBanking.testcases.BaseClass"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
